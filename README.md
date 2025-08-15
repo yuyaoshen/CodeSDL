@@ -2,7 +2,7 @@
 
 ### Requirements
 
-+ codeprep https://github.com/giganticode/codeprep
++ codeprep https://github.com/giganticode/codeprep 需要安装不高于python-3.9版本
 + pandas 1.5.3
 + numpy 1.26.4
 + gensim 4.3.3
