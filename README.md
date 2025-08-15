@@ -18,6 +18,7 @@
 | :---------------- | :----------------------------------------------------------- |
 | checkVersion.py | 用于检测环境是否一致，避免包依赖产生的错误。 |
 | preprocessing.sh   | 用于处理源代码token流，依赖codeprep项目，可使用basic或bpe选项进行切词。   |
+| gatherTokens.sh   | 用于收集数据集中所有tokens，将分词后所有代码tokens集中到同一文本中，并应用于词向量训练。   |
 | wordVector.py | 根据所有源代码token流的数据集，训练word embedding模型，用于生成word2vec向量。 |
 | loadata.py | 将经过切词的token流载入数据集。 |
 | splitData.py | 将有标记数据划分为训练集、验证集和测试集，默认比例为6:2:2。 |
